@@ -28,9 +28,8 @@
 
 .numbers {
   border: 1px solid rgb(199, 199, 199);
-  background-color: rgb(243, 243, 243);
   font-size: 20px;
-  transition: all 0.2s;
+  transition: all 0.1s;
 }
 
 .numbers:hover {
@@ -48,7 +47,7 @@
   background-color: rgb(255, 136, 0);
   font-size: 20px;
   font-weight: bold;
-  transition: all 0.5s;
+  transition: all 0.1s;
 }
 
 .symbols:hover {
@@ -60,6 +59,14 @@
   background-color: rgb(194, 88, 2);
   border: none;
   box-shadow: inset 0 0 10px black;
+}
+
+.buttonAc,
+.plusminus,
+.percentage,
+.dot,
+.numbers {
+  background-color: rgb(243, 243, 243);
 }
 
 .number0 {
@@ -104,17 +111,14 @@
 
 .buttonAc {
   grid-area: ac;
-  background-color: rgb(243, 243, 243);
 }
 
 .plusminus {
   grid-area: plusminus;
-  background-color: rgb(243, 243, 243);
 }
 
 .percentage {
   grid-area: percentage;
-  background-color: rgb(243, 243, 243);
 }
 
 .plus {
@@ -135,7 +139,6 @@
 
 .dot {
   grid-area: dot;
-  background-color: rgb(243, 243, 243);
 }
 
 .equal {
