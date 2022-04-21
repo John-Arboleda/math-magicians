@@ -32,16 +32,6 @@
   transition: all 0.1s;
 }
 
-.numbers:hover {
-  background-color: rgb(231, 231, 231);
-  cursor: pointer;
-}
-
-.numbers:active {
-  opacity: 0.8;
-  box-shadow: inset 0 0 5px black;
-}
-
 .symbols {
   border: 1px solid rgb(199, 199, 199);
   background-color: rgb(255, 136, 0);
@@ -50,15 +40,23 @@
   transition: all 0.1s;
 }
 
+.numbers:hover {
+  background-color: rgb(231, 231, 231);
+}
+
 .symbols:hover {
-  transform: scale(1.08);
+  background-color: rgb(206, 110, 0);
+}
+
+.numbers:hover,
+.symbols:hover {
   cursor: pointer;
 }
 
+.numbers:active,
 .symbols:active {
-  background-color: rgb(194, 88, 2);
-  border: none;
-  box-shadow: inset 0 0 10px black;
+  opacity: 0.8;
+  box-shadow: inset 0 0 5px black;
 }
 
 .buttonAc,
